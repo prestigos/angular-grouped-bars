@@ -1,0 +1,27 @@
+{
+  "name": "angular-grouped-bars",
+  "version": "0.0.0",
+  "homepage": "https://github.com/prestigos/angular-grouped-bars",
+  "authors": [
+    "Ardroz <darr.0725@gmail.com>"
+  ],
+  "description": "Angular grouped bars",
+  "main": "angular-grouped-bars.js",
+  "keywords": [
+    "angular"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.18"
+  },
+  "repository": {
+    "type": "git",
+    "homepage": "git://github.com/prestigos/angular-grouped-bars.git"
+  }
+}
