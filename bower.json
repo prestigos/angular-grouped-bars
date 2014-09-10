@@ -1,6 +1,6 @@
 {
   "name": "angular-grouped-bars",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/prestigos/angular-grouped-bars",
   "authors": [
     "Ardroz <darr.0725@gmail.com>"
@@ -18,9 +18,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.2.18",
-    "pleasejs": "~0.2.1",
-    "RainbowVis-JS": "anomal/RainbowVis-JS"
+    "angular": "~1.2.18"
   },
   "repository": {
     "type": "git",

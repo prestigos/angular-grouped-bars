@@ -1,6 +1,5 @@
-.bar
-  span( ng-style = 'barCss' )
-    .point(
-      ng-bind = 'value'
-      ng-style = 'pointCss'
-    )
+.bar-container
+  .upper-bar
+    span( ng-bind = 'title' )
+  .bar
+    div( ng-transclude )

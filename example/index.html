@@ -7,24 +7,35 @@
     <link rel="stylesheet" href="css.css">
   </head>
   <body>
-    <grouped-bars>
-      <bar width = '98' value = '98,000'></bar>
-      <bar width = '40' value = '40,000'></bar>
-      <bar width = '0' value = '0'></bar>
-      <bar width = '78' value = '78,000'></bar>
+  <div class = "lol">
+    <grouped-bars title = 'Accidentes'>
+      <bar title = 'Costo'>
+        <pin position = '10' color = '"#344ed0"'></pin>
+        <pin position = '50' color = '"#f341e2"'></pin>
+        <pin position = '70' color = '"#f28758"'></pin>
+        <pin position = '100' color = '"#000"'></pin>
+      </bar>
+      <bar title = 'Incidencias'>
+        <pin position = '30' color = '"#f341e2"'></pin>
+        <pin position = '19' color = '"#000"'></pin>
+        <pin position = '78' color = '"#344ed0"'></pin>
+      </bar>
     </grouped-bars>
-    <div class = 'lol'>
-      <grouped-bars>
-        <bar width = '98' value = '98,000'></bar>
-        <bar width = '40' value = '40,000'></bar>
-        <bar width = '0' value = '0'></bar>
-        <bar width = '78' value = '78,000'></bar>
-      </grouped-bars>
-    </div>
-
+    <grouped-bars title = 'Mermas'>
+      <bar title = 'Costo'>
+        <pin position = '0' color = '"#344ed0"'></pin>
+        <pin position = '6' color = '"#cdd9ce"'></pin>
+        <pin position = '7' color = '"#172567"'></pin>
+        <pin position = '100' color = '"#000"'></pin>
+      </bar>
+      <bar title = 'Incidencias'>
+        <pin position = '45' color = '"#f341e2"'></pin>
+        <pin position = '78' color = '"#000"'></pin>
+        <pin position = '61' color = '"#344ed0"'></pin>
+      </bar>
+    </grouped-bars>
+  </div>
     <script src = '../bower_components/angular/angular.min.js'></script>
-    <script src = '../bower_components/pleasejs/Please.min.js'></script>
-    <script src = '../bower_components/RainbowVis-JS/rainbowvis.js'></script>
     <script src = '../build/angular-grouped-bars.min.js'></script>
     <script src = 'app.js'></script>
   </body>
