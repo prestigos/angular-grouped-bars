@@ -5,7 +5,7 @@
 var app = angular.module('prestigos.groupedBars', []);
 
 app.directive( 'groupedBars', groupedBars );
-app.directive( 'bar', bar );
+app.directive( 'barra', bar );
 app.directive( 'pin', pin );
 
 groupedBars.$inject = ['$templateCache'];
