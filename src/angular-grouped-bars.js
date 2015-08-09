@@ -39,7 +39,12 @@ function pin ( templateCache, timeout ) {
     template: templateCache.get('templates/pin.html'),
     link: function( scope, elem, attrs ) {
       var parent,
-        leftPosition = parseInt( scope.position );
+        leftPosition;
+
+      scope.$watch('position', function (position) {
+        leftPosition = parseInt(position);
+        setPinLocation();
+      }, true);
 
       scope.pinStyle = {
         "background-color": scope.color
@@ -48,10 +53,7 @@ function pin ( templateCache, timeout ) {
       function setPinLocation () {
         parent = angular.element( elem[0].parentElement );
         scope.pinStyle.left = (parent[0].clientWidth * (leftPosition / 100));
-        timeout( setPinLocation, 100 );
       }
-
-      timeout( setPinLocation, 100);
     }
   };
 }
